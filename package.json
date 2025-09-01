@@ -1,0 +1,32 @@
+{
+  "name": "@atlas402/operator",
+  "version": "1.0.0",
+  "description": "AI control plane for x402 ecosystem with autonomous service orchestration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "x402",
+    "ai",
+    "orchestration",
+    "automation",
+    "micropayments"
+  ],
+  "author": "Atlas402 Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.0.0"
+  }
+}
+
